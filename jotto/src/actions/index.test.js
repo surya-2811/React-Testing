@@ -10,6 +10,7 @@ describe('getSecretWord', ()=>{
         moxios.uninstall();
 
     })
+    
 
     test('secretWord is returned', ()=>{
         moxios.wait(()=>{
